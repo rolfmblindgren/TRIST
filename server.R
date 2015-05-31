@@ -23,7 +23,8 @@ shinyServer(function(input, output) {
     min <- input$factorI
       
     # draw the histogram with the specified number of bins
-    plot(c(00, 100), c(0, 100), axes=FALSE, ann=FALSE,type = "n", xlab = "", ylab = "",
+    plot(c(00, 100), c(0, 100), axes=FALSE, ann=FALSE,
+         type = "n", xlab = "", ylab = "",
          main = "TRIST")
     
     
